@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd"> -->
+
+<web-app>
+
+
+
+
+
+  <servlet>
+  <servlet-name>GetConnection</servlet-name>
+  <servlet-class>GetConnection</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>GetConnection</servlet-name>
+ <url-pattern>/GetConnection</url-pattern>
+ </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>SearchCat</servlet-name>
+  <servlet-class>SearchCat</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>SearchCat</servlet-name>
+ <url-pattern>/SearchCat</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+  <servlet-name>SearchProduct</servlet-name>
+  <servlet-class>SearchProduct</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>SearchProduct</servlet-name>
+ <url-pattern>/SearchProduct</url-pattern>
+ </servlet-mapping>
+ 
+
+
+<servlet>
+  <servlet-name>SearchProductDetails</servlet-name>
+  <servlet-class>SearchProductDetails</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>SearchProductDetails</servlet-name>
+ <url-pattern>/SearchProductDetails</url-pattern>
+ </servlet-mapping>
+ 
+</web-app> 
